@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	background-image: url("img/mv.jpg");
+	height: 400px;
+	background-size: cover;
+    background-position: bottom;
+}
+
+header h1 {
+	color: #6b6b6b;
+	padding: 20px 0 0 15px;
+}
+
+main {
+	width: 840px;
+	margin: 0 auto 50px;
+
+}
+
+.blog {
+	border-bottom: solid 1px #dadada;
+}
+
+.blog-wrap {
+	margin: 50px 0 30px 0;
+	color: #72727a;
+}
+
+.blog-wrap a {
+	color: #72727a;
+}
